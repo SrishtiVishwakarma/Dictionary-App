@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="dictionay.css">
+  <title>Dictionary-App</title>
+</head>
+<body>
+  <h1>Dictionary App</h1>
+  <header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search a Word" spellcheck="false">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <p class="error"></p>
+      <p class="word"></p><br>
+      <p class="speech"></p><br>
+      <span class="definition"></span><br>
+
+      <br>
+       <div class="phonetics">
+        <!-- <p id="text">"text": "/ˈsmaɪ.əl/</p><br> -->
+        <button id="audio"><i class="fa-solid fa-volume-high"></i> Listen</button>
+      </div> 
+
+      <p class="example"></p>
+
+
+
+    </div>
+  </main>
+
+  <button class="clear">Clear</button>
+<script src="dictionary.js"></script>
+</body>
+</html>
